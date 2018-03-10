@@ -15,9 +15,9 @@ class Zone extends Component {
 
 		return (
 			<div className="glyphicon glyphicon">
-				<h4 className="detail" onClick={this.onSelectTitle.bind(this)} style={style.header}>
+				<div className="detail" onClick={this.onSelectTitle.bind(this)} style={style.header}>
 					{title}
-				</h4>
+				</div>
 			</div>
 		)
 

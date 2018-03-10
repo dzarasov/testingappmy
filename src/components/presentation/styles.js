@@ -41,4 +41,11 @@ export default {
 		"fontSize": "50px",
 		"fontWeight": 900
 	},
+
+	pageHead: {
+		color: '#025d6c',
+		"fontFamily": "American Typewriter",
+		"fontSize": "50px",
+		"fontWeight": 900
+	},
 }

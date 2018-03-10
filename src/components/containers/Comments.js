@@ -90,7 +90,7 @@ class Comments extends Component {
 		if(commentsArray != null ) {
 			commentList = commentsArray.map((comment, i) => {
 				return (
-					<div>
+					<div key={i}>
 						<li className="list-group-item list-group-item-action" key={i} ><Comment currentComment={comment} /></li>
 						<br/>
 					</div>	

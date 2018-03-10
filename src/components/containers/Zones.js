@@ -49,7 +49,7 @@ class Zones extends Component {
 		const listOfZones = this.props.list.map((zone, i) => {
 			let selected = (i == this.props.selected);
 			return (
-				<div>
+				<div key={i}>
 					<li style={style.liStyle} className="col-xs-2" key={i}>
 						<Zone select={this.selectZone.bind(this)} index={i} isSelected={selected} currentZone={zone} />
 					</li>
